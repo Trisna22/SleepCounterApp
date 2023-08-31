@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calculateFragment">
+    <fragment
+        android:id="@+id/calculateFragment"
+        android:name="com.example.sleepcounter.CalculateFragment"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculate" >
+        <action
+            android:id="@+id/action_calculateFragment_to_babyFragment"
+            app:destination="@id/babyFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_pussyFragment"
+            app:destination="@id/pussyFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_alrightFragment"
+            app:destination="@id/alrightFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_bigmanFragment"
+            app:destination="@id/bigmanFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_wowFragment"
+            app:destination="@id/wowFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_pffFragment"
+            app:destination="@id/pffFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_timeFragment"
+            app:destination="@id/timeFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_deadFragment"
+            app:destination="@id/deadFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_zombieFragment"
+            app:destination="@id/zombieFragment" />
+        <action
+            android:id="@+id/action_calculateFragment_to_creditsFragment"
+            app:destination="@id/creditsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/babyFragment"
+        android:name="com.example.sleepcounter.BabyFragment"
+        android:label="fragment_baby"
+        tools:layout="@layout/fragment_baby" >
+        <action
+            android:id="@+id/action_babyFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pussyFragment"
+        android:name="com.example.sleepcounter.PussyFragment"
+        android:label="fragment_pussy"
+        tools:layout="@layout/fragment_pussy" >
+        <action
+            android:id="@+id/action_pussyFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alrightFragment"
+        android:name="com.example.sleepcounter.AlrightFragment"
+        android:label="fragment_alright"
+        tools:layout="@layout/fragment_alright" >
+        <action
+            android:id="@+id/action_alrightFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bigmanFragment"
+        android:name="com.example.sleepcounter.BigmanFragment"
+        android:label="fragment_bigman"
+        tools:layout="@layout/fragment_bigman" >
+        <action
+            android:id="@+id/action_bigmanFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wowFragment"
+        android:name="com.example.sleepcounter.WowFragment"
+        android:label="WowFragment" >
+        <action
+            android:id="@+id/action_wowFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pffFragment"
+        android:name="com.example.sleepcounter.PffFragment"
+        android:label="PffFragment" >
+        <action
+            android:id="@+id/action_pffFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeFragment"
+        android:name="com.example.sleepcounter.TimeFragment"
+        android:label="TimeFragment" >
+        <action
+            android:id="@+id/action_timeFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deadFragment"
+        android:name="com.example.sleepcounter.DeadFragment"
+        android:label="DeadFragment" >
+        <action
+            android:id="@+id/action_deadFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zombieFragment"
+        android:name="com.example.sleepcounter.ZombieFragment"
+        android:label="ZombieFragment" >
+        <action
+            android:id="@+id/action_zombieFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditsFragment"
+        android:name="com.example.sleepcounter.CreditsFragment"
+        android:label="fragment_credits"
+        tools:layout="@layout/fragment_credits" >
+        <action
+            android:id="@+id/action_creditsFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
+</navigation>
